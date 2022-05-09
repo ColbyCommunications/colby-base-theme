@@ -7,7 +7,7 @@
     <?php wp_head(); ?>
     <script>
       window.ColbyBaseTheme = {
-        menu: '<?php echo json_encode(wp_get_nav_menu_items(2)) ?>'
+        menu: '<?php echo json_encode(wp_get_nav_menu_items('Main Menu')) ?>'
       }
     </script>
   </head>
