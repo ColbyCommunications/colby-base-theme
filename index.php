@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <?php wp_head(); ?>
+    <script>
+      window.ColbyBaseTheme = {
+        menu: '<?php echo json_encode(wp_get_nav_menu_items(2)) ?>'
+      }
+    </script>
   </head>
 
   <body <?php body_class(); ?>>

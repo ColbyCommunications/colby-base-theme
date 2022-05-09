@@ -15,6 +15,14 @@ use function Roots\bundle;
  */
 add_action('wp_enqueue_scripts', function () {
     bundle('app')->enqueue();
+
+    wp_register_style( 'typekit', 'https://use.typekit.net/djf7stt.css' );
+    wp_enqueue_style( 'typekit' );
+
+    wp_register_style( 'material-icons', 'https://fonts.googleapis.com/icon?family=Material+Icons+Sharp' );
+    wp_enqueue_style( 'material-icons' );
+
+
 }, 100);
 
 /**
@@ -126,3 +134,6 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer'
     ] + $config);
 });
+
+// Colby Base Theme
+
