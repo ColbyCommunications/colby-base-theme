@@ -1,6 +1,21 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import 'tailwindcss/variants';
+
+@import './variables.scss';
+@import './mixins.scss';
+@import './pages.scss';
+@import './search.scss';
+@import './comments.scss';
+@import './forms.scss';
+@import './wp-classes.scss';
+@import './tables.scss';
+@import './pagination.scss';
+@import './header.scss';
+@import './footer.scss';
+@import './elementor.scss';
+@import './posts.scss';
 
 #main {
     margin-top: 90px;

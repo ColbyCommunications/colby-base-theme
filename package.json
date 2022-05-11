@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "@roots/bud-vue": "^5.7.7",
+        "@roots/bud-sass": "^5.7.7",
         "pinia": "^2.0.13",
         "vue": "^3.2.33"
     }
